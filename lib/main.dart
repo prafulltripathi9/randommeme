@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:randommeme/view/mainScreen.dart';
-import 'package:randommeme/view/splashScreen.dart';
+// import 'package:randommeme/view/splashScreen.dart';
 
 void main() {
   runApp(const MyApp());
