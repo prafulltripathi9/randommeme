@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:randommeme/view/mainScreen.dart';
+import 'package:randommeme/view/welcome_screen.dart';
 // import 'package:randommeme/view/splashScreen.dart';
 
 void main() {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: Mainscreen()
+      home: const WelcomeScreen()
     );
   }
 }
